@@ -2,36 +2,46 @@
 
 Simple project that transforms photo collections into stunning video sequences enhanced with custom OpenCV effects and real-time frame processing.
 
-## Effects: 
+## Effects 
 
 ### Dotted Contour
 - Evenly spaced glowing dots along contours
 - Soft glow halos & color variations
 - Smooth fade animations
 
-View result: [Dotted Contour Effect](result/hope-dots.mp4)
+<p align="center">
+  <img src="gifs/hope-dots.gif" alt="Dotted Contour Effect" width="500">
+</p>
+
 
 ### Ripple
 - Multiple simultaneous spherical waves
 - Dynamic ring width & acceleration
 - Chromatic aberration edges
 
-View result: [Ripple Effect](result/carl-ripple.mp4)
+<p align="center">
+  <img src="gifs/carl-ripple.gif" alt="Ripple Effect" width="500">
+</p>
+
 
 ### Tone
 - Preserves original brightness
 - Metallic paint simulation
 - Animated color palettes
 
-View result: [Tone Effect](result/carl-tone.mp4)
+<p align="center">
+  <img src="gifs/carl-tone.gif" alt="Tone Effect" width="500">
+</p>
+
 
 ### Chromatic Aberration
 - Animated RGB channel shifting
 - Adjustable intensity
 - Mask-based application
 
-View result: [Chromatic Aberration Effect](result/andy-chromatic.mp4)
-
+<p align="center">
+  <img src="gifs/andy-chromatic.gif" alt="Chromatic Aberration Effect" width="700">
+</p>
 
 ## Installation
 
@@ -51,12 +61,6 @@ cd cv-frame-effects
 ```bash
 cd effect_sandbox
 ```
-
-<!-- - Create ```3rd/``` directory and add ```opencv``` with ```opencv-contrib``` here:   
-```
-mkdir 3rd
-mv {opencv,opencv-contrib} 3rd/
-``` -->
 
 - Create and enter```build``` directory:
 ```bash
